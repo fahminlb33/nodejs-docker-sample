@@ -1,0 +1,13 @@
+version: "3.9"
+
+volumes:
+  redis-data:
+
+services:
+  # latest redis image, expose the port 6379, use the redis-data volue for redis data, and set the password to "testing"
+  redis:
+    # continue...
+
+  # build from the Dockerfile in the current directory, expose the port 3000
+  web:
+    # continue...
